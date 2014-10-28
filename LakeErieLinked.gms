@@ -9,6 +9,8 @@ Version: August 4, 2014
 The basic model is developed through a series of steps shown as CGE exercises at
 http://www.warziniack.com/research
 
+test
+
 $offtext
 
 Set  f  all factors /
