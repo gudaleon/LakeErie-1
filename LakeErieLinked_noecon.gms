@@ -1440,7 +1440,7 @@ DY.fx('yperch')$(wally('yperch')=2) = tq2dy('yperch') / (  0.52678*(0.07837 + 0.
 
 
 
-solve cge using mcp;
+* solve cge using mcp;
 
 * write catch to text file to be used by EwE
 
@@ -1465,19 +1465,19 @@ put catch_out;
 put "ModelStatus", cge.modelstat:2:0/;
 put "SolverStatus", cge.solvestat:2:0/;
 put 'WAE-Y',    ewe('WAE-Y') /;
-put 'WAE-A',    deltacatch('walleyes') /;
-put 'YEP-A',    deltacatch('yperch') /;
+put 'WAE-A',    ewe('WAE-A') /;
+put 'YEP-A',    ewe('YEP-A') /;
 put 'LWF',      ewe('LWF') /;
 put 'WHB',      ewe('WHB') /;
 put 'WHP',      ewe('WHP') /;
 put 'BUT',      ewe('BUT') /;
 put 'RAS',      ewe('RAS') /;
 put 'SMB',      ewe('SMB') /;
-put 'RAT-A',   deltacatch('salmon') /;
+put 'RAT-A',    ewe('RAT-A') /;
 put 'LKT',      ewe('LKT') /;
-put 'SUK',  ewe('SUK') /;
-put 'CAT', ewe('CAT') /;
-put 'PanF', ewe('PanF') /;
+put 'SUK',      ewe('SUK') /;
+put 'CAT',      ewe('CAT') /;
+put 'PanF',     ewe('PanF') /;
 
 putclose catch_out;
 
