@@ -1,0 +1,10 @@
+--- Job LakeErieLinked.gms Start 10/28/14 15:40:09 24.1.3 r41464 WEX-WEI x86_64/MS Windows
+GAMS 24.1.3   Copyright (C) 1987-2013 GAMS Development. All rights reserved
+Licensee: Travis Warziniack                              G120831:1428CP-WIN
+          USDA Forest Service, Rocky Mountain Research Station       DC9883
+--- Starting compilation
+--- LakeErieLinked.gms(1369) 3 Mb
+--- .stock_in.txt(14) 3 Mb
+--- LakeErieLinked.gms(1476) 3 Mb 14 Errors
+*** Status: Compilation error(s)
+--- Job LakeErieLinked.gms Stop 10/28/14 15:40:09 elapsed 0:00:00.082

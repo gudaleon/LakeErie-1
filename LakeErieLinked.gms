@@ -9,8 +9,6 @@ Version: August 4, 2014
 The basic model is developed through a series of steps shown as CGE exercises at
 http://www.warziniack.com/research
 
-test
-
 $offtext
 
 Set  f  all factors /
@@ -1376,20 +1374,20 @@ display ewe;
 * set shock to rec and commercial
 
 j(a) = 1;
-j('wall') = ewe('WY-2');
-j('yperch')= ewe('YP-2');
-j('wperch') = ewe('WP');
-j('wbass') = ewe('WB');
+j('wall') = ewe('WAE-A');
+j('yperch')= ewe('YEP-A');
+j('wperch') = ewe('WHP');
+j('wbass') = ewe('WHB');
 
 *** TAC ---
 
-stockt('walleyes') = ewe('WY-2');
-stockt('perch') = ewe('YP-2');
-stockt('whbass') = ewe('WB');
-stockt('smbass') = ewe('SB');
-stockt('lktrout') = ewe('LT');
-stockt('rbtrout') = ewe('RS');
-stockt('lwfish') = ewe('LW');
+stockt('walleyes') = ewe('WAE-A');
+stockt('perch') = ewe('YEP-A');
+stockt('whbass') = ewe('WHB');
+stockt('smbass') = ewe('SMB');
+stockt('lktrout') = ewe('LKT');
+stockt('rbtrout') = ewe('RAS');
+stockt('lwfish') = ewe('LWF');
 
 
 DY.up('wall')$((J('wall')*bio('wall')> 2.555710956) and (wally('wall')=1)) = tq2dy('wall') / (  0.5694*0.35*(J('wall')*bio('wall'))  );
@@ -1447,20 +1445,20 @@ put catch_out;
 
 put "ModelStatus", cge.modelstat:2:0/;
 put "SolverStatus", cge.solvestat:2:0/;
-put 'WY-1',    ewe('WY-1') /;
-put 'WY-2',    deltacatch('walleyes') /;
-put 'YP-2',    deltacatch('yperch') /;
-put 'LW',      ewe('LW') /;
-put 'WB',      ewe('WB') /;
-put 'WP',      ewe('WP') /;
-put 'BB',      ewe('BB') /;
-put 'RS',      ewe('RS') /;
-put 'SB',      ewe('SB') /;
-put 'RT',      deltacatch('salmon') /;
-put 'LT',      ewe('LT') /;
-put 'SUCKER',  ewe('SUCKER') /;
-put 'CATFISH', ewe('CATFISH') /;
-put 'PANFISH', ewe('PANFISH') /;
+put 'WAE-Y',    ewe('WAE-Y') /;
+put 'WAE-A',    deltacatch('walleyes') /;
+put 'YEP-A',    deltacatch('yperch') /;
+put 'LWF',      ewe('LWF') /;
+put 'WHB',      ewe('WHB') /;
+put 'WHP',      ewe('WHP') /;
+put 'BUT',      ewe('BUT') /;
+put 'RAS',      ewe('RAS') /;
+put 'SMB',      ewe('SMB') /;
+put 'RAT-A',   deltacatch('salmon') /;
+put 'LKT',      ewe('LKT') /;
+put 'SUK',  ewe('SUK') /;
+put 'CAT', ewe('CAT') /;
+put 'PanF', ewe('PanF') /;
 
 putclose catch_out;
 

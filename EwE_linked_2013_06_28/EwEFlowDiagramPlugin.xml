@@ -1,0 +1,158 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EwEFlowDiagramPlugin
+</name>
+</assembly>
+<members>
+<member name="F:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.m_core">
+	<summary>The core to use.</summary>
+</member><member name="F:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.m_data">
+	<summary>The core data to use.</summary>
+</member><member name="F:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.m_ui">
+	<summary>The UI to use.</summary>
+</member><member name="F:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.m_bInitOK">
+	<summary>Initialization OK flag.</summary>
+</member><member name="M:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.Initialize(System.Object)">
+ -----------------------------------------------------------------------
+ <summary>
+ Initialize the plugin. This method is called only once when the plugin is loaded.
+ </summary>
+	<param name="core">The core that the plugin can use.</param>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.ControlImage">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IGUIPlugin.ControlImage"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.ControlText">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IGUIPlugin.ControlText"/>
+ -----------------------------------------------------------------------
+
+</member><member name="M:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.OnControlClick(System.Object,System.EventArgs,System.Windows.Forms.Form@)">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="M:EwEPlugin.IGUIPlugin.OnControlClick(System.Object,System.EventArgs,System.Windows.Forms.Form@)"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.ControlTooltipText">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IGUIPlugin.ControlTooltipText"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.EnabledState">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IGUIPlugin.EnabledState"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.NavigationTreeItemLocation">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.INavigationTreeItemPlugin.NavigationTreeItemLocation"/>
+ -----------------------------------------------------------------------
+
+</member><member name="M:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.EcopathRunCompleted(System.Object@)">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="M:EwEPlugin.IEcopathRunCompletedPlugin.EcopathRunCompleted(System.Object@)"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.Name">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IPlugin.Name"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.Description">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IPlugin.Description"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.Author">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IPlugin.Author"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.Contact">
+ -----------------------------------------------------------------------
+ <inheritdocs cref="P:EwEPlugin.IPlugin.Contact"/>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.EcopathDatastructures">
+ -----------------------------------------------------------------------
+ <summary>
+ Reference the Ecopath datastructures allowing the plugin to access 
+ ecopath data to generate the flw file for the fd.exe application.
+ </summary>
+ -----------------------------------------------------------------------
+
+</member><member name="P:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.Core">
+ -----------------------------------------------------------------------
+ <summary>
+ Reference the EwE Core allowing the plugin to access ecopath data to 
+ generate the flw file for the fd.exe application.
+ </summary>
+ -----------------------------------------------------------------------
+
+</member><member name="M:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin.HasUI">
+ -----------------------------------------------------------------------
+ <summary>
+ Helper method, states if the plugin has an interface.
+ </summary>
+	<returns>True if the plugin has an interface.</returns>
+ -----------------------------------------------------------------------
+
+</member><member name="T:EwEFlowDiagramPlugin.cEwEFlowDiagramPlugin">
+ ===========================================================================
+ <summary>
+ Plug-in point implementaiton for the EwE6 flow diagram plug-in.
+ </summary>
+ ===========================================================================
+
+</member><member name="M:EwEFlowDiagramPlugin.frmFlowDiagramPlugin.LaunchFlowDiagram(System.String,System.Boolean)">
+ -----------------------------------------------------------------------
+ <summary>
+ Launch the EwE flow diagram showing current EwE5 data.
+ </summary>
+	<param name="strFileName">Name of the EwE5 flow diagram data file to use.</param>
+	<param name="bCreateFile">Flag stating whether the EwE5 flow diagram 
+ data file should be written (true) or if an existing data file should be 
+ used (false).</param>
+ -----------------------------------------------------------------------
+
+</member><member name="M:EwEFlowDiagramPlugin.frmFlowDiagramPlugin.FormatNumber(System.Single,System.Int32,System.Int32)">
+ -----------------------------------------------------------------------
+ <summary>
+ Format a number to a string, using en-US notation, padded to a specified
+ number of digits and decimals.
+ </summary>
+	<param name="sValue">Value to format.</param>
+	<param name="iNumDigits">Number of digits before the decimal point.</param>
+	<param name="iNumDec">Number of decmals after the decimal point.</param>
+	<returns></returns>
+	<remarks><para>Room for the minus sign, if any, will be included in 
+ <paramref name="iNumDigits"/></para></remarks>
+ -----------------------------------------------------------------------
+
+</member><member name="T:EwEFlowDiagramPlugin.frmFlowDiagramPlugin">
+ ===========================================================================
+ <summary>
+ Form for the EwE flow diagram plug-in.
+ </summary>
+ ===========================================================================
+
+</member><member name="P:EwEFlowDiagramPlugin.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:EwEFlowDiagramPlugin.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:EwEFlowDiagramPlugin.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

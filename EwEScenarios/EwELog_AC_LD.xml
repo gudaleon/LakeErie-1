@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <Model_Name>AC_LD</Model_Name>
+  <Created>12:15:55 PM Monday, September 15, 2014</Created>
+<Session_Started>12:15:55 PM Monday, September 15, 2014</Session_Started>
+<Information_Message
+  Date="12:15:55 PM Monday, September 15, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="12:16:08 PM Monday, September 15, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="12:16:08 PM Monday, September 15, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="12:16:10 PM Monday, September 15, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="12:16:14 PM Monday, September 15, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="12:16:15 PM Monday, September 15, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="12:16:15 PM Monday, September 15, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="12:16:15 PM Monday, September 15, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="12:16:41 PM Monday, September 15, 2014">
+  <Message>Time Series dataset 'TimeSeries_EopathF_forcedB_SEJ' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>TimeSeries</Message_Source>
+  <Message_DataType>TimeSeriesDataset</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="12:19:14 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By User: WY-1</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:19:14 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:21:29 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By User: RAT</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:21:29 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:21:50 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:21:50 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:29:29 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:29:29 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:38:31 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:38:31 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:42:04 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:42:04 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:45:12 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:45:12 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:46:11 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:46:11 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:46:59 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:46:59 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:48:42 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:48:42 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:49:53 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:49:53 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="12:58:48 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="12:58:48 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="1:01:58 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By User: WY</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="1:01:58 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="1:02:26 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="1:02:26 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="1:02:47 PM Monday, September 15, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="1:02:47 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="1:04:29 PM Monday, September 15, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="1:04:29 PM Monday, September 15, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Log_Message
+  Date="1:05:13 PM Monday, September 15, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="1:05:13 PM Monday, September 15, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="1:05:13 PM Monday, September 15, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="1:05:13 PM Monday, September 15, 2014">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started>1:05:13 PM Monday, September 15, 2014</Session_Started>
+<Session_Started>8:30:17 AM Tuesday, September 16, 2014</Session_Started>
+<Information_Message
+  Date="8:30:17 AM Tuesday, September 16, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="8:56:21 PM Wednesday, September 17, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="8:56:21 PM Wednesday, September 17, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Session_Started>9:09:51 PM Monday, October 27, 2014</Session_Started>
+<Information_Message
+  Date="9:09:54 PM Monday, October 27, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="9:10:13 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="9:10:13 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="9:10:17 PM Monday, October 27, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="9:10:21 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="9:10:23 PM Monday, October 27, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:10:23 PM Monday, October 27, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:10:23 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="9:11:19 PM Monday, October 27, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="9:11:19 PM Monday, October 27, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="9:12:00 PM Monday, October 27, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="9:12:00 PM Monday, October 27, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Log_Message
+  Date="9:13:35 PM Monday, October 27, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:13:35 PM Monday, October 27, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:13:35 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:13:35 PM Monday, October 27, 2014">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started>9:13:35 PM Monday, October 27, 2014</Session_Started>
+<Session_Started>9:14:00 PM Monday, October 27, 2014</Session_Started>
+<Information_Message
+  Date="9:14:01 PM Monday, October 27, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="9:14:12 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="9:14:12 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="9:14:16 PM Monday, October 27, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="9:14:19 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="9:14:20 PM Monday, October 27, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:14:20 PM Monday, October 27, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:14:20 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="9:14:47 PM Monday, October 27, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="9:14:47 PM Monday, October 27, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Log_Message
+  Date="9:14:53 PM Monday, October 27, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:14:53 PM Monday, October 27, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:14:53 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:14:53 PM Monday, October 27, 2014">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started>9:14:53 PM Monday, October 27, 2014</Session_Started>
+<Session_Started>9:19:33 PM Monday, October 27, 2014</Session_Started>
+<Information_Message
+  Date="9:19:33 PM Monday, October 27, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="9:19:37 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="9:19:37 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="9:19:39 PM Monday, October 27, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="9:19:43 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="9:19:44 PM Monday, October 27, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:19:44 PM Monday, October 27, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:19:44 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="9:20:36 PM Monday, October 27, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="9:20:36 PM Monday, October 27, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="9:22:50 PM Monday, October 27, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="9:22:50 PM Monday, October 27, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Log_Message
+  Date="9:38:10 PM Monday, October 27, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:38:10 PM Monday, October 27, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:38:11 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:38:11 PM Monday, October 27, 2014">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started>9:38:11 PM Monday, October 27, 2014</Session_Started>
+<Session_Started>9:38:28 PM Monday, October 27, 2014</Session_Started>
+<Information_Message
+  Date="9:38:28 PM Monday, October 27, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="9:38:40 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="9:38:40 PM Monday, October 27, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="9:38:42 PM Monday, October 27, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="9:38:45 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="9:38:46 PM Monday, October 27, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:38:46 PM Monday, October 27, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="9:38:46 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="9:39:03 PM Monday, October 27, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="9:39:03 PM Monday, October 27, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Log_Message
+  Date="9:39:07 PM Monday, October 27, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:39:07 PM Monday, October 27, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:39:08 PM Monday, October 27, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="9:39:08 PM Monday, October 27, 2014">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started>9:39:08 PM Monday, October 27, 2014</Session_Started>
+<Session_Started>3:21:52 PM Tuesday, October 28, 2014</Session_Started>
+<Information_Message
+  Date="3:21:53 PM Tuesday, October 28, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="3:22:04 PM Tuesday, October 28, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="3:22:04 PM Tuesday, October 28, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="3:22:06 PM Tuesday, October 28, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="3:22:09 PM Tuesday, October 28, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="3:22:14 PM Tuesday, October 28, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="3:22:14 PM Tuesday, October 28, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="3:22:14 PM Tuesday, October 28, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="3:27:04 PM Tuesday, October 28, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:27:04 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Log_Message
+  Date="3:31:33 PM Tuesday, October 28, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="3:31:33 PM Tuesday, October 28, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="3:31:40 PM Tuesday, October 28, 2014">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started>3:31:40 PM Tuesday, October 28, 2014</Session_Started>
+<Session_Started>3:34:47 PM Tuesday, October 28, 2014</Session_Started>
+<Information_Message
+  Date="3:34:48 PM Tuesday, October 28, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\LinkedModel - not using\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="3:35:05 PM Tuesday, October 28, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="3:35:05 PM Tuesday, October 28, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="3:35:08 PM Tuesday, October 28, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="3:35:11 PM Tuesday, October 28, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="3:35:18 PM Tuesday, October 28, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="3:35:18 PM Tuesday, October 28, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="3:35:18 PM Tuesday, October 28, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="3:35:54 PM Tuesday, October 28, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:35:54 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Session_Started>3:39:41 PM Tuesday, October 28, 2014</Session_Started>
+<Information_Message
+  Date="3:39:41 PM Tuesday, October 28, 2014">
+  <Message>Ecopath model 'C:\Users\twwarziniack\Dropbox\5_GreatLakes\EwECGE\EwEScenarios\AC_LD.ewemdb' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Warning_Message
+  Date="3:39:46 PM Tuesday, October 28, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Warning_Message
+  Date="3:39:46 PM Tuesday, October 28, 2014">
+  <Message>Your model has 2 group(s) that have a diet with imports only. Such groups are not well defined, will have trophic levels of 1, and will not show any flow on trophic level decomposition interfaces.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Warning_Message>
+<Information_Message
+  Date="3:39:48 PM Tuesday, October 28, 2014">
+  <Message>Ecopath run completed.</Message>
+  <Message_Type>Any</Message_Type>
+  <Message_Source>EcoPath</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Log_Message
+  Date="3:39:50 PM Tuesday, October 28, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Information_Message
+  Date="3:39:51 PM Tuesday, October 28, 2014">
+  <Message>Error Conversion from type 'DBNull' to type 'String' is not valid. occurred while reading FishingRate 46</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="3:39:51 PM Tuesday, October 28, 2014">
+  <Message>Warning: Fishing rate shape 46 is referenced but not present in database for EcoSim fleet 1 (ID 2)</Message>
+  <Message_Type>DataModified</Message_Type>
+  <Message_Source>DataSource</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Information_Message
+  Date="3:39:51 PM Tuesday, October 28, 2014">
+  <Message>Ecosim scenario 'asian carp uncertainty' loaded.</Message>
+  <Message_Type>DataAddedOrRemoved</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Information_Message>
+<Critical_Message
+  Date="3:40:09 PM Tuesday, October 28, 2014">
+  <Message>The external economics model did not produce an output file.</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:40:09 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="3:48:37 PM Tuesday, October 28, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:48:37 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="3:53:59 PM Tuesday, October 28, 2014">
+  <Message>Unrecognized Species Name Provided By User: WAE_Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:53:59 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="3:54:42 PM Tuesday, October 28, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: Y</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:54:43 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="3:56:16 PM Tuesday, October 28, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: A</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:56:16 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Critical_Message
+  Date="3:57:09 PM Tuesday, October 28, 2014">
+  <Message>Unrecognized Species Name Provided By GAMS: PanG</Message>
+  <Message_Type>ErrorEncountered</Message_Type>
+  <Message_Source>EcoSim</Message_Source>
+  <Message_DataType>NotSet</Message_DataType>
+</Critical_Message>
+<Log_Message
+  Date="3:57:09 PM Tuesday, October 28, 2014">
+  <Message>EwECore.cMessagePublisher.SendMessage(...) No default message handler defined for source = EcoSim</Message>
+</Log_Message>
+<Log_Message
+  Date="4:07:48 PM Tuesday, October 28, 2014">
+  <Message>Ecotracer scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="4:07:48 PM Tuesday, October 28, 2014">
+  <Message>Ecospace scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="4:07:49 PM Tuesday, October 28, 2014">
+  <Message>Ecosim scenario closed</Message>
+</Log_Message>
+<Log_Message
+  Date="4:07:49 PM Tuesday, October 28, 2014">
+  <Message>Model closed</Message>
+</Log_Message>
+<Session_Started>4:07:49 PM Tuesday, October 28, 2014</Session_Started>
+</doc>
